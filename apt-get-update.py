@@ -1,8 +1,9 @@
-from starcluster.clustersetup import ClusterSetup
+from starcluster import clustersetup
 from starcluster.logger import log
 
-class AptGetUpdate(ClusterSetup):
+class AptGetUpdate(clustersetup.DefaultClusterSetup):
     def __init__(self):
+          super(AptGetUpdate, self).__init__()
           return
 
     def run(self, nodes, master, user, user_shell, volumes):
