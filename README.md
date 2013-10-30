@@ -18,3 +18,10 @@ TODO:
 
 ###apt-get-update
 Updates the apt-get package list on your nodes.  This is helpful before using package manager commands.
+
+###securitygroups
+Associates cluster nodes with additional security groups.  Useful for establishing secure communication between 
+cluster nodes and external nodes.  
+
+###mount
+Mounts external NFS shares onto all cluster nodes.
